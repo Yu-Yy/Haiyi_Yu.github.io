@@ -8,8 +8,8 @@ const translations = {
     'nav.about': '关于',
     'nav.contact': '联系',
 
-    'hero.tagline': 'AIGC 设计 · 计算创意 · 空间叙事',
-    'hero.note': '从空间到算法，在代码与生成的边界寻找新的表达可能',
+    'hero.tagline': '室内设计 · 空间叙事 · 材料实践',
+    'hero.note': '在记忆、材料与空间的交织中寻找诗意',
 
     'projects.heading': '作品',
 
@@ -40,8 +40,8 @@ const translations = {
     'nav.about': 'About',
     'nav.contact': 'Contact',
 
-    'hero.tagline': 'AIGC Design · Computational Creativity · Spatial Narratives',
-    'hero.note': 'From space to algorithm — seeking new forms of expression at the boundary of code and generation',
+    'hero.tagline': 'Interior Design · Spatial Narratives · Material Practice',
+    'hero.note': 'RMIT Interior Design — finding poetry in the interplay of memory, material, and space',
 
     'projects.heading': 'Projects',
 
