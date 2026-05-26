@@ -168,3 +168,10 @@ themeToggle.addEventListener('click', () => {
   applyTheme(nextDark);
   localStorage.setItem(THEME_KEY, nextDark ? 'dark' : 'light');
 });
+
+// Follow system theme changes (when no manual preference is set)
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+  if (localStorage.getItem(THEME_KEY) === null) {
+    applyTheme(e.matches);
+  }
+});
